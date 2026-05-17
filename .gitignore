@@ -1,0 +1,25 @@
+# Build artifacts
+/bin/
+/gputui
+/gputui-agent
+/gputui-perf
+
+# Local runtime outputs
+/data/
+*.jsonl
+
+# Benchmarks and profiling
+/bench_results/
+*.pprof
+
+# Go
+/.gopath/
+*.test
+*.out
+coverage.txt
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
